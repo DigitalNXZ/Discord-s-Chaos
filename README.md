@@ -11,3 +11,5 @@ I'll have a lot to do.. but at first I share this Version, currently it looks li
  
 out of the CSS
 )
+
+Just copy the CSS.. because it looks like you can't install Themes for PowerCords, because it's not done yet?
