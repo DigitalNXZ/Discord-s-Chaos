@@ -8,8 +8,10 @@ I'll have a lot to do.. but at first I share this Version, currently it looks li
 - ::-webkit-scrollbar {
      display: none;
  }
- 
-out of the CSS
 )
 
-Just copy the CSS.. because it looks like you can't install Themes for PowerCords, because it's not done yet?
+Installing (open you'r CMD)
+1. CD powercord/src/Powercord/themes
+2. git clone https://github.com/DigitalNXZ/Discord-s-Chaos.git
+
+Done!
