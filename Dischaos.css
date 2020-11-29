@@ -256,14 +256,7 @@ img:not(.avatar-1BDn8e){
 .disableScrollAnchor-3V9UtP {
   padding-bottom:48px;
 }
-/* Fixed Typing etc for The Blur Container */
-.typing-2GQL18 {
-  margin-left: 30px;
-}
 
-.cooldownWrapper-3joyFc {
-  margin-right: 32px;
-}
 
 /* Fix Scrollbar */
 .messagesWrapper-1sRNjr ::-webkit-scrollbar-track  {
@@ -280,3 +273,7 @@ img:not(.avatar-1BDn8e){
   margin-left: -18px !important;
 
 }
+
+
+
+
