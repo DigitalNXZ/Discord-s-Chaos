@@ -34,10 +34,6 @@
   --Roundness: 10px; 
 }
 
-/* scrollbar hide*/
-::-webkit-scrollbar {
-    display: none;
-}
 
 /* Profile Bottom Left */
 .container-3baos1{
@@ -45,14 +41,11 @@
 }
 
 /* Chat box */
-.buttons-3JBrkn{
-  margin-right:12px !important; 
-}
 .header-23xsNx{
   user-select:none;
 }
 .form-2fGMdU{
-	padding: 10px;
+	padding: 8px;
 }
 .scrollableContainer-2NUZem{
   border-radius:0;
@@ -70,7 +63,7 @@
   backdrop-filter: blur(10px);
 }
 .channelTextArea-rNsIhG, .popout_7205, .form-2fGMdU  {
-  padding-top:4px;
+  padding-top:3px;
 	margin-bottom:0;
 }
 .typing-2GQL18, .base-gE7OpD {
@@ -237,4 +230,53 @@ svg.icon-22AiRD:hover {
 .embedImage-2W1cML,
 img:not(.avatar-1BDn8e){
   border-radius:0 !important;
+}
+
+/* Removes a stupid Container */
+.form-2fGMdU:before{
+  display: none;
+}
+
+/* New Position to remove the Gray Background for a Blur Background / Chat Width */
+.form-2fGMdU {
+  position:absolute;
+  bottom:0;
+  width: 100% !important;
+  max-width:95% !important;
+  background: #0000 !important; 
+  backdrop-filter: blur(10px);
+  left: 50%;
+  transform: translate(-50%, 0);
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+
+/* Text Container is on Bottom, so Chat Write Box Hide some Msg, its a Fix */
+.disableScrollAnchor-3V9UtP {
+  padding-bottom:48px;
+}
+/* Fixed Typing etc for The Blur Container */
+.typing-2GQL18 {
+  margin-left: 30px;
+}
+
+.cooldownWrapper-3joyFc {
+  margin-right: 32px;
+}
+
+/* Fix Scrollbar */
+.messagesWrapper-1sRNjr ::-webkit-scrollbar-track  {
+    margin-bottom: 73px !important;
+}
+
+/* Fix Jump Back to new messages */
+.jumpToPresentBar-G1R9s6, .barBase-1c2Rfb {
+  position: absolute;
+  top:0;
+  height: 10px;
+  border-radius: 0;
+  width: 100%;
+  margin-left: -18px !important;
+
 }
